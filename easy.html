@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Easy Page</title>
+</head>
+<body style="background-color: black;">
+    <header>
+        <h1 style="background-color: rgb(247, 247, 249);font-family: 'Times New Roman', Times, serif;font: 600;">Welcome to Easy Page</h1>
+        <p style="border: rgb(252, 249, 249); background-color: rgb(249, 249, 249);">A simple starter HTML layout.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2 style="background-color: white;">Features</h2>
+            <ul>
+                <li style="background-color: white;">Responsive layout</li>
+                <li style="background-color: white;">External stylesheet (styles.css)</li>
+                <li style="background-color: white;">Clean semantic markup</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 style="background-color: white;">Example Button</h2>
+            <button id="alertBtn">Click me</button>
+        </section>
+    </main>
+
+    <footer>
+        <small>&copy; 2025</small>
+    </footer>
+
+    <script>
+        document.getElementById('alertBtn').addEventListener('click', function(){
+            alert('Button clicked!');
+        });
+    </script>
+</body>
+</html>
